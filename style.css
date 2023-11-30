@@ -1,8 +1,3 @@
-html, body {
-  margin: 0;
-  padding: 0;
-}
-
 header {
   background-color: #4dd6ff;
   height: 200px;
@@ -27,7 +22,7 @@ main {
 
 .sections {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
 }
 
