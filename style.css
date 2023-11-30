@@ -1,3 +1,8 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
 header {
   background-color: #4dd6ff;
   height: 200px;
@@ -44,6 +49,10 @@ section {
 
 .green-section {
   background-color: #4CAF50;
+}
+
+.yellow-section {
+  background-color: #ffff00;
 }
 
 footer {
