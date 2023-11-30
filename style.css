@@ -41,8 +41,7 @@ main {
 }
 
 aside {
-  flex: 1;
-  height: 100%; /* Set height to 100% */
+  flex-grow: 1; /* Используйте flex-grow вместо flex и уберите height */
   text-align: center;
   line-height: 150px;
   color: black;
@@ -58,8 +57,7 @@ aside {
 
 .blue-main {
   background-color: #4dd6ff;
-  flex: 3;
-  height: 100%; /* Set height to 100% */
+  flex-grow: 3; /* Используйте flex-grow вместо flex и уберите height */
   text-align: center;
   line-height: 150px;
   color: black;
