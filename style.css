@@ -47,6 +47,7 @@ header {
     margin: 20px 0;
     border: 1px solid #ccc;
     padding: 20px;
+    max-width: 25%;
   }
   
   .grey-aside {
@@ -55,6 +56,7 @@ header {
   
   .blue-main {
     background-color: #4dd6ff;
+    flex: 3;
   }
   
   footer {
