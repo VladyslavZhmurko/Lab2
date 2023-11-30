@@ -57,17 +57,6 @@ header {
     background-color: #4dd6ff;
   }
   
-  section {
-    flex: 1;
-    height: 150px;
-    width: 500px;
-    text-align: center;
-    line-height: 150px;
-    color: black;
-    margin: 20px 0;
-    border: 1px solid #ccc;
-    padding: 20px;
-  }
   footer {
     background-color: rgb(218, 93, 218);
     height: 100px;
