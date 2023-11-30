@@ -1,5 +1,5 @@
 body {
-  margin: 0; /* Remove default margin on body */
+  margin: 0;
 }
 
 header {
@@ -32,24 +32,24 @@ nav {
 }
 
 main {
-  width: 100%; /* Set main to take up the full width */
+  width: 100%;
 }
 
 .sections {
   display: flex;
-  align-items: stretch; /* Stretch children to fill the container */
+  align-items: stretch;
 }
 
 aside {
   flex: 1;
-  height: 150px;
+  height: 100%; /* Set height to 100% */
   text-align: center;
   line-height: 150px;
   color: black;
   margin: 20px 0;
   border: 1px solid #ccc;
   padding: 20px;
-  max-width: 25%; /* Set maximum width to 25% */
+  max-width: 25%;
 }
 
 .grey-aside {
@@ -58,7 +58,14 @@ aside {
 
 .blue-main {
   background-color: #4dd6ff;
-  flex: 3; /* Set flex to 3 to take up 3/4 of the width */
+  flex: 3;
+  height: 100%; /* Set height to 100% */
+  text-align: center;
+  line-height: 150px;
+  color: black;
+  margin: 20px 0;
+  border: 1px solid #ccc;
+  padding: 20px;
 }
 
 footer {
