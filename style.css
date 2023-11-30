@@ -1,77 +1,72 @@
+body {
+  margin: 0; /* Remove default margin on body */
+}
+
 header {
-    background-color: #4dd6ff;
-    height: 200px;
-    width: 100%;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  nav {
-    background-color: rgb(131, 88, 250);
-    height: 40px;
-    line-height: 40px;
-    color: white;
-    float: right;
-    padding: 0 10px;
-  }
-  
-  .light-green-section {
-    background-color: lightgreen;
-    height: 150px;
-    width: 100%;
-    text-align: center;
-    line-height: 150px;
-    color: black;
-    margin: 20px 0;
-    border: 1px solid #ccc;
-    padding: 20px;
-  }
-  
-  main {
-    width: calc(100% - 200px);
-    margin-left: 200px;
-  }
-  
-  .sections {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
-  
-  aside {
-    flex: 1;
-    height: 150px;
-    text-align: center;
-    line-height: 150px;
-    color: black;
-    margin: 20px 0;
-    border: 1px solid #ccc;
-    padding: 20px;
-  }
-  
-  .grey-aside {
-    background-color: #ccc;
-  }
-  
-  .blue-main {
-    background-color: #4dd6ff;
-    flex: 1;
-    height: 150px;
-    text-align: center;
-    line-height: 150px;
-    color: black;
-    margin: 20px 0;
-    border: 1px solid #ccc;
-    padding: 20px;
-  }
-  
-  footer {
-    background-color: rgb(218, 93, 218);
-    height: 100px;
-    width: 100%;
-    text-align: center;
-    line-height: 100px;
-    color: black;
-    padding: 20px;
-  }
-  
+  background-color: #4dd6ff;
+  height: 200px;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  background-color: rgb(131, 88, 250);
+  height: 40px;
+  line-height: 40px;
+  color: white;
+  float: right;
+  padding: 0 10px;
+}
+
+.light-green-section {
+  background-color: lightgreen;
+  height: 150px;
+  width: 100%;
+  text-align: center;
+  line-height: 150px;
+  color: black;
+  margin: 20px 0;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+main {
+  width: 100%; /* Set main to take up the full width */
+}
+
+.sections {
+  display: flex;
+  align-items: stretch; /* Stretch children to fill the container */
+}
+
+aside {
+  flex: 1;
+  height: 150px;
+  text-align: center;
+  line-height: 150px;
+  color: black;
+  margin: 20px 0;
+  border: 1px solid #ccc;
+  padding: 20px;
+  max-width: 25%; /* Set maximum width to 25% */
+}
+
+.grey-aside {
+  background-color: #ccc;
+}
+
+.blue-main {
+  background-color: #4dd6ff;
+  flex: 3; /* Set flex to 3 to take up 3/4 of the width */
+}
+
+footer {
+  background-color: rgb(218, 93, 218);
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  line-height: 100px;
+  color: black;
+  padding: 20px;
+}
